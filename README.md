@@ -1,39 +1,42 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+## I need help to update this package because I'm not playing with dart anymore
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+## Droplist  - yet another Droplist !!
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+Dropdown_custom can control space of list data when not enough space
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
-## Features
+### Simple use
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+### If you want to control auto close dropdown when scroll need to add parentScrollController in widget
+### scrollController is a scrollController of screen
+  AppDropList(
+    onChange: (output) {},
+    items: <DropListItem>[],
+    label: '@label',
+    parentScrollController: scrollController,
+    colorLabel: Colors.black,
+    hintText: '@hintxt',
+    enabled: true,
+    dropdownButtonStyle: const DropdownButtonStyle(
+        height: 48,
+      ),
+    dropdownStyle: const DropdownStyle(elevation: 2),
+  ),
 
-## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+### Use with controls
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+import 'package:quanht_dropdown_custom/quanht_dropdown_custom.dart';
+   AppDropList(
+    onChange: (output) {},
+    items: <DropListItem>[],
+    label: '@label',
+    colorLabel: Colors.black,
+    hintText: '@hintxt',
+    enabled: true,
+    dropdownButtonStyle: const DropdownButtonStyle(
+        height: 48,
+      ),
+    dropdownStyle: const DropdownStyle(elevation: 2),
+  ),
+```

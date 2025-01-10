@@ -9,8 +9,8 @@ void main() {
   test('adds one to input values', () {
     final calculator = AppDropList(
         onChange: (output) {},
-        items: <DroplistItem>[
-          DroplistItem(id: 1, nameSelected: 'name', index: 0, data: Element)
+        items: <DropListItem>[
+          DropListItem(id: 1, nameSelected: 'name', index: 0, data: Element)
         ],
         hintText: '');
 
