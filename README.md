@@ -32,10 +32,10 @@ Dropdown_custom can control space of list data when not enough space
   ),
 ## Preview
 
-[<img src="https://github.com/trungquan2k/quanht_dropdown_custom/blob/develop/assest/images/image1.png" width="250" alt=""/>](screenshot_1.png)
-[<img src="https://github.com/trungquan2k/quanht_dropdown_custom/blob/develop/assest/images/image2.png.png" width="250" alt=""/>](screenshot_2.png)
-[<img src="https://github.com/trungquan2k/quanht_dropdown_custom/blob/develop/assest/images/image3.png" width="250" alt="">](screenshot_3.png)
-[<img src="https://github.com/trungquan2k/quanht_dropdown_custom/blob/develop/assest/images/image4.png" width="250" alt=""/>](screenshot_4.png)
+[<img src="https://github.com/trungquan2k/quanht_dropdown_custom/blob/develop/assest/images/image1.png" width="250" alt=""/>](image1.png)
+[<img src="https://github.com/trungquan2k/quanht_dropdown_custom/blob/develop/assest/images/image2.png" width="250" alt=""/>](image2.png)
+[<img src="https://github.com/trungquan2k/quanht_dropdown_custom/blob/develop/assest/images/image3.png" width="250" alt="">](image3.png)
+[<img src="https://github.com/trungquan2k/quanht_dropdown_custom/blob/develop/assest/images/image4.png" width="250" alt=""/>](image4.png)
 
 
 ### Use with controls
