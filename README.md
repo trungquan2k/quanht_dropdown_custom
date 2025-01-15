@@ -1,6 +1,6 @@
 ## I need help to update this package because I'm not playing with dart anymore
 
-## Breaking Changes in v3.0.0
+## Breaking Changes in v0.0.2
 
 - The `AppDropList` widget support data list for not enough space.
 - The `parentScrollController` this is ScrollController of screen when scroll auto close dropdown.
